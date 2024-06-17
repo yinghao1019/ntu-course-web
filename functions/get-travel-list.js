@@ -1,5 +1,5 @@
-export default function getProductList() {
-    const productList = [
+export default function getTravelList() {
+    const travelList = [
         {
             id: "1",
             name: "Trip to Bali",
@@ -50,5 +50,5 @@ export default function getProductList() {
         },
     ];
 
-    return productList;
+    return travelList;
 }

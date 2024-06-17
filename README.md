@@ -21,7 +21,6 @@ Ctrl + C
 - `/about` 關於我們 
 - `/contact` 聯絡我們
 - `/faq` 常見問題
-- `/products` 產品列表
 
 ## 如何表達一個頁面
 

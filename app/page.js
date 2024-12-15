@@ -1,3 +1,4 @@
+// 寫註解可使用快捷鍵: ctrl + / (cmd + /)
 import Image from 'next/image'
 
 export default function Home() {

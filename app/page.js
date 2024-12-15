@@ -11,7 +11,7 @@ export default function Home() {
           <p>關於HTML標籤的更多資訊可參考 <a href="https://www.w3schools.com/html/" target="_blank">W3Schools HTML</a></p>
         </div>
       </header>
-      <section id="travelListSection" className="my-4">
+      <section id="tripListSection" className="my-4">
         <div className="">
           {/* TODO: 請在此處放入一系列的產品卡片 */}
 

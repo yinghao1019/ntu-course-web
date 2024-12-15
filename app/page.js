@@ -1,14 +1,22 @@
+import Image from 'next/image'
+
 export default function Home() {
 
   return (
     <>
-      <header>
+      <header className="">
         <div className="container mx-auto">
           <h1>HTML &amp; CSS</h1>
           <p>關於HTML標籤的更多資訊可參考 <a href="https://www.w3schools.com/html/" target="_blank">W3Schools HTML</a></p>
         </div>
       </header>
-      <section className="my-4">
+      <section id="travelListSection" className="my-4">
+        <div className="">
+          {/* TODO: 請在此處放入一系列的產品卡片 */}
+
+        </div>
+      </section>
+      <section id="htmlTagsSection" className="my-4">
         <div className="container mx-auto">
           <h1>HTML標籤</h1>
           <p>用以表達你想在網頁上放入的各種內容</p>
@@ -16,14 +24,8 @@ export default function Home() {
 
         </div>
       </section>
-      <section>
-        <div className="">
-          {/* TODO: 請在此處放入一系列的產品卡片 */}
-
-        </div>
-      </section>
-      <footer>
-        <div className="container mx-auto"> 
+      <footer className="">
+        <div className="container mx-auto">
           <p>
             CopyRight &copy; 2024
           </p>

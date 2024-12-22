@@ -2,6 +2,7 @@
 import Image from 'next/image'
 import TripCard from '@/components/TripCard'
 import tripList from '@/data/trip-list'
+import Navbar from '@/components/Navbar'
 
 export default function Home() {
 
@@ -10,13 +11,14 @@ export default function Home() {
   })
   return (
     <>
-      <header className="text-center py-10 bg-neutral-100">
+      <Navbar />
+      {/* <header className="text-center py-10 bg-neutral-100">
         <div className="container mx-auto">
           <h1>HTML &amp; CSS</h1>
           <p>關於HTML標籤的更多資訊可參考 <a href="https://www.w3schools.com/html/" target="_blank">W3Schools HTML</a></p>
           <a href="/about" className='mt-4'>About</a>
         </div>
-      </header>
+      </header> */}
       <section id="tripListSection" className="my-4">
         <div className="container max-auto px-4 sm:px-0 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
           {cards}

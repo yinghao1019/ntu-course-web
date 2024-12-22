@@ -1,8 +1,13 @@
 // 寫註解可使用快捷鍵: ctrl + / (cmd + /)
 import Image from 'next/image'
+import TripCard from '@/components/TripCard'
+import tripList from '@/data/trip-list'
 
 export default function Home() {
 
+  const cards = tripList.map((trip) => {
+    return <TripCard key={trip.id} trip={trip} />
+  })
   return (
     <>
       <header className="">
@@ -12,9 +17,8 @@ export default function Home() {
         </div>
       </header>
       <section id="tripListSection" className="my-4">
-        <div className="">
-          {/* TODO: 請在此處放入一系列的產品卡片 */}
-
+        <div className="container max-auto px-4 sm:px-0 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+          {cards}
         </div>
       </section>
       <section id="htmlTagsSection" className="my-4">

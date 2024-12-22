@@ -10,10 +10,11 @@ export default function Home() {
   })
   return (
     <>
-      <header className="">
+      <header className="text-center py-10 bg-neutral-100">
         <div className="container mx-auto">
           <h1>HTML &amp; CSS</h1>
           <p>關於HTML標籤的更多資訊可參考 <a href="https://www.w3schools.com/html/" target="_blank">W3Schools HTML</a></p>
+          <a href="/about" className='mt-4'>About</a>
         </div>
       </header>
       <section id="tripListSection" className="my-4">
